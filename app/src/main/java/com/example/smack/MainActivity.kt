@@ -2,6 +2,7 @@ package com.example.smack
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
@@ -33,5 +34,11 @@ class MainActivity : AppCompatActivity() {
         )
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
+    }
+    fun loginBtnNavClicked(view: View){
+
+    }
+    fun addChannelClicked(view: View){
+
     }
 }
